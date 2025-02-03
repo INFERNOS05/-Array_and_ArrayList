@@ -1,41 +1,36 @@
-Java Array and ArrayList Utilities
+# Java Array and ArrayList Utilities
 
-Overview
+## Overview
+This project demonstrates key operations with **arrays** and **ArrayLists** in Java:
+- **Separating Even and Odd Numbers** from user input
+- **Finding Adjacent Numbers with the Smallest Difference**
+- **Converting Between Arrays and ArrayLists**
 
-This project showcases operations involving arrays and ArrayLists in Java. It enables:
+## Features
+1. **Even-Odd Number Separation**  
+   - Takes user input and classifies numbers into even and odd lists.
 
-Even-Odd Number Separation from user input.
+2. **Adjacent Number Difference Finder**  
+   - Identifies consecutive numbers with the smallest absolute difference.
+   - Returns the index of the first number in the closest pair.
 
-Identification of Adjacent Numbers with Minimal Difference.
+3. **Array and ArrayList Conversion**  
+   - Converts arrays to `ArrayList` and vice versa.
 
-Conversion between Arrays and ArrayLists.
+4. **Menu-Driven Interface**  
+   - Provides an interactive interface for selecting operations with input validation and error handling.
 
-Features
+## Program Structure
+- **`Main.java`**: Entry point, handles user interactions and calls relevant methods.
+- **`EvenOddSeparator.java`**: Manages the separation of numbers into even and odd lists.
+- **`SmallestDistanceFinder.java`**: Locates the index of adjacent numbers with the smallest difference.
+- **`ArrayConverter.java`**: Handles conversions between arrays and `ArrayLists`.
 
-Even-Odd Number Separation
-
-Accepts user input and classifies numbers into even and odd lists.
-
-Adjacent Number Difference Finder
-
-Detects consecutive numbers with the smallest absolute difference.
-
-Returns the index of the first number in the pair.
-
-Array and ArrayList Conversion
-
-Converts arrays to ArrayList and vice versa.
-
-Interactive Menu-Driven Interface
-
-Facilitates user operation selection with input validation and exception handling.
-
-Program Structure
-
-Main.java: Entry point managing user interactions and method calls.
-
-EvenOddSeparator.java: Separates numbers into even and odd categories.
-
-SmallestDistanceFinder.java: Identifies indices of adjacent numbers with minimal difference.
-
-ArrayConverter.java: Manages conversions between arrays and ArrayLists.
+## Folder Structure
+```plaintext
+├── ArrayConverter.java
+├── EvenOddSeparator.java
+├── Main.java
+├── README.md
+└── SmallestDistanceFinder.java
+```
